@@ -60,6 +60,17 @@ files = [
 ansicon = {version = "*", markers = "platform_system == \"Windows\""}
 
 [[package]]
+name = "mcrcon"
+version = "0.7.0"
+description = "A client for handling Remote Commands (RCON) to a Minecraft server."
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "mcrcon-0.7.0.tar.gz", hash = "sha256:c2f1caf2467e283e0ccd2436f1ce21f04242b03c5fafb3860e3924d764a910d4"},
+]
+
+[[package]]
 name = "wcwidth"
 version = "0.2.14"
 description = "Measures the displayed width of unicode strings in a terminal"
@@ -74,4 +85,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12"
-content-hash = "acdd705b11c19b0ece8c60560149b66f4d03352afab04ec23389a6301e624caa"
+content-hash = "f0da1b661c07a8f14995cb3630b5832e46d5e3e6b623bfc4c3c823168698264c"
