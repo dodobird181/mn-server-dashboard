@@ -4,7 +4,7 @@ from mcrcon import MCRcon
 RCON_HOST = str(config("RCON_HOST"))
 RCON_PORT = int(config("RCON_PORT"))
 RCON_PASS = str(config("RCON_PASS"))
-
+print("Password repr:", repr(RCON_PASS))
 with MCRcon(host=RCON_HOST, password=RCON_PASS, port=RCON_PORT) as mcr:
     resp = mcr.command("list")
     print(resp)
