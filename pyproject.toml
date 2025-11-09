@@ -7,14 +7,15 @@ authors = [
 ]
 license = {text = "The Unlicense (See LICENSE file)"}
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "blessed (>=1.22.0,<2.0.0)",
-    "dashing (>=0.1.0,<0.2.0)",
-    "mcrcon (>=0.7.0,<0.8.0)"
-]
 
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.dependencies]
+blessed = "^1.23.0"
+dashing = "^0.1.0"
+mcrcon = "^0.7.0"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
