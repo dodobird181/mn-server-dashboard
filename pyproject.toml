@@ -10,6 +10,7 @@ readme = "README.md"
 package-mode = false
 
 [tool.poetry.dependencies]
+python = ">=3.7"
 blessed = "^1.23.0"
 dashing = "^0.1.0"
 mcrcon = "^0.7.0"
