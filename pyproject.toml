@@ -14,6 +14,7 @@ python = ">=3.7"
 blessed = "^1.23.0"
 dashing = "^0.1.0"
 mcrcon = "^0.7.0"
+python-decouple = "^3.8"
 
 [build-system]
 requires = ["poetry-core"]

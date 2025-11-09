@@ -74,6 +74,18 @@ files = [
 ]
 
 [[package]]
+name = "python-decouple"
+version = "3.8"
+description = "Strict separation of settings from code."
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "python-decouple-3.8.tar.gz", hash = "sha256:ba6e2657d4f376ecc46f77a3a615e058d93ba5e465c01bbe57289bfb7cce680f"},
+    {file = "python_decouple-3.8-py3-none-any.whl", hash = "sha256:d0d45340815b25f4de59c974b855bb38d03151d81b037d9e3f463b0c9f8cbd66"},
+]
+
+[[package]]
 name = "wcwidth"
 version = "0.2.14"
 description = "Measures the displayed width of unicode strings in a terminal"
@@ -88,4 +100,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.7"
-content-hash = "7c6b7ac520cf0c7ceefa4801543f63c5c4cc6c59d5002047f9c275013f09f970"
+content-hash = "968fd3aa9d60c7b86e0b66a4783855ed994202bc511c9aacb7476ddb42e338a0"
