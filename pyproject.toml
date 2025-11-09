@@ -1,6 +1,6 @@
 [project]
 name = "mn-srrver-dashboard"
-requires-python = ">=3.12.3"
+requires-python = ">=3.7"
 version = "0.1.0"
 description = "MN Server Dashboard"
 license = "See the UNLICENSE"
